@@ -1,0 +1,200 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<link rel="stylesheet" href="w3.css">
+<link href="material_icons.css" rel="stylesheet">
+<title>Math Page of Jhih-Huang Li</title> 
+
+<style>
+.center{
+width: 1000px;
+margin: 20px auto 70px auto;
+}
+.title{
+margin: -10px 50px 0px 0px;
+}
+.main{
+margin-top: 70px;
+}
+html{
+overflow-y: scroll;
+}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" async
+	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+</head>
+<body>
+
+<div class="w3-bar w3-brown w3-top">
+  <div class="center">
+    <button class="w3-bar-item w3-button w3-hover-orange" onclick="openPage('Contact')">Contact</button>
+    <button class="w3-bar-item w3-button w3-hover-orange" onclick="openPage('Research')">Research</button>
+    <button class="w3-bar-item w3-button w3-hover-orange" onclick="openPage('Simulations')">Simulations</button>
+    <button class="w3-bar-item w3-button w3-hover-orange" onclick="openPage('Teaching')">Enseignement  <img src="fr.png" width="16" height="11" alt="FR" /></button>
+    <div class="w3-right title"><h3><img src="name_zh.png" width="80" />Jhih-Huang Li</h3></div>
+  </div>
+</div> 
+
+<div class="w3-panel w3-leftbar w3-rightbar w3-border-dark-gray center main">
+
+  <div id="Contact" class="page">
+    <div class="w3-left" style="width:560px">
+      <h2 class="w3-text-brown">Contact</h2>
+      <h5>I have been a research fellow (postdoc) working with <a href="https://warwick.ac.uk/fac/sci/maths/people/staff/zygouras/" target="_blank">Nikolaos Zygouras</a> since August 2019.
+        I completed my PhD in 2017 at University of Geneva under the supervision of <a href="http://www.unige.ch/~duminil/" target="_blank">Hugo Duminil-Copin</a> and <a href="http://www.unige.ch/~smirnov/" target="_blank">Stanislav Smirnov</a>.</h5>
+      <div class="w3-panel w3-left-align w3-block w3-padding">
+        <p>Mathematics Institute<br>
+          Zeeman Building<br>
+          University of Warwick<br>
+          Coventry CV4 7AL<br>
+          United Kingdom</p>
+
+        <p>
+          <i class="material-icons-outlined" style="font-size: 18px;">work_outline</i> Office B2.34, 2<sup>nd</sup> floor<br>
+          <i class="material-icons-outlined" style="font-size: 18px;">phone</i> (+44) 24 765 73512<br>
+          <i class="material-icons-outlined" style="font-size: 18px;">mail</i> Jhih-Huang.Li (at) warwick.ac.uk
+        </p>
+      </div>
+    </div>
+    <div class="w3-panel w3-right">
+      <img src="profile.jpg" class="w3-circle" style="width:300" />
+    </div>
+  </div>
+
+  <div id="Research" class="page" style="display: none">
+    <h2 class="w3-text-brown">Research</h2>
+    <h5>I work on statistical mechanics.
+      More precisely, I am interested in different percolation models (random-cluster model), Ising model, quantum Ising model and integrable probabilities.
+      In particular, I try to understand the universal behaviour of such models at criticality.</h5>
+    <h4>Publications</h4>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+        <div>
+	  <b>Universality for the Random-Cluster Model on Isoradial Graphs</b><br>with H. Duminil-Copin and I. Manolescu, <i>Electronic Journal of Probability</i> (2018).
+	  <div class="w3-right">
+	    <a href="javascript: openAbstract('03')"><i class="material-icons-outlined">more</i></a>
+	    <a href="research/1711.02338.pdf"><i class="material-icons-outlined">picture_as_pdf</i></a>
+	  </div>
+        </div>
+        <div id="pub03" style="display: none">
+	  <div><i class="material-icons-outlined">more_horiz</i></div>
+          We show that the canonical random-cluster measure associated to isoradial graphs is critical for all $q \geq 1$.
+          Additionally, we prove that the phase transition of the model is of the same type on all isoradial graphs:
+          continuous for $1 \leq q \leq 4$ and discontinuous for $q > 4$.
+          For $1 \leq q \leq 4$, the arm exponents (assuming their existence) are shown to be the same for all isoradial graphs. 
+          In particular, these properties also hold on the triangular and hexagonal lattices.
+          Our results also include the limiting case of quantum random-cluster models in $1+1$ dimensions. 
+        </div>
+      </div>
+    </p>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+        <div>
+	  <b>The Interface of the FK-representation of the Quantum Ising Model Converges to the SLE(16/3)</b><br>
+	  <i>Probability Theory and Related Fields</i> (2018).
+	  <div class="w3-right">
+	    <a href="javascript: openAbstract('02')"><i class="material-icons-outlined">more</i></a>
+	    <a href="research/1608.02821.pdf"><i class="material-icons-outlined">picture_as_pdf</i></a>
+	  </div>
+        </div>
+        <div id="pub02" style="display: none">
+	  <div><i class="material-icons-outlined">more_horiz</i></div>
+	  We study the interface in the FK-representation of the 1D quantum
+          Ising model and show that in the limit, it converges to the SLE(16/3) curve.
+        </div>
+    </div></p>
+    <h4>Personal notes</h4>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+        <div>
+	  <b>PhD : Universality of the Random-Cluster Model and Applications to Quantum Systems</b><br>under the supervision of H. Duminil-Copin and S. Smirnov, 12th December 2017.
+	  <div class="w3-right">
+	    <a href="research/personal/thesis.pdf"><i class="material-icons-outlined">picture_as_pdf</i></a>
+	  </div>
+        </div>
+      </div>
+    </p>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+        <div>
+	  <b>Mémoire de M2 : Phase de non-unicité dans la percolation</b><br>sous la direction de V. Beffara, September 2013.
+	  <div class="w3-right">
+	    <a href="research/personal/M2.pdf"><i class="material-icons-outlined">picture_as_pdf</i></a>
+	  </div>
+        </div>
+      </div>
+    </p>
+  </div>
+
+  <div id="Simulations" class="page" style="display: none">
+    <h2 class="w3-text-brown">Simulations</h2>
+    <h4>Star-triangle transformation in random-cluster model</h4>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding" style="width:100%; right:0">
+        <div>
+          <p>
+            The critical random-cluster model (or Bernoulli percolation) on an isoradial graph has parameters given in terms of the local geometry.
+            In particular, these parameters define an invariant model under the so-called <i>star-triangle transformations</i>.
+            In mathematical terms, let us write $\mathbb{P}_G$ for the critical random-cluster measure on the isoradial graph $G$ and take $T$ to be a star-triangle transformation.
+            Then the invariance tells us that
+            $T \circ \mathbb{P}_{G} = \mathbb{P}_{T(G)}$
+            with equality in distribution.
+          </p>
+          <p>
+            By gluing isoradial graphs together, one can switch their positions by performing some sequence of such transformations, and the invariance ensures that along the sequence, the model stays critical (the underlying graphs change, however).
+          </p>
+          <p>
+            As such, if one manages to show that the behaviours of the model do not change too much (or change in a reasonable way) before and after such transformations, then the same would also hold for quantities of interest.
+            Below you can find a video in which a sequence of such transformations is performed and observe the shape of the clusters which are coloured according to their sizes.
+          </p>
+          <p><a href="research/simulation.mp4" target="_blank"><i class="material-icons-outlined">movie</i></a></p>
+	</div>
+      </div>
+    </p>
+  </div>
+
+  <div id="Teaching" class="page" style="display: none">
+    <h2 class="w3-text-brown">Enseignement</h2>
+    <h5>Ci-dessous se trouvent les matériels des enseignements que j'ai donnés à l'Université de Genève entre 2013 et 2016.</h5>
+    <h4>2015/2016</h4>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+	<div>
+	  <b>Analyse complexe (automne + printemps)</b>
+	  <div class="w3-right">
+	    <a href="javascript: openTeaching('complexe'); series('complexe', title_complexe)"><i class="material-icons-outlined">more</i></a>
+	  </div>
+	</div>
+	<div id="teaching-complexe" style="display: none">
+	  <div><i class="material-icons-outlined">more_horiz</i></div>
+          Ces séries d'exercices ont ont été préparées avec Maxime Gagnebin.<br>
+	  <a href="teaching/complexe/complexe.zip"><i class="material-icons-outlined w3-large">picture_as_pdf</i></a> Toutes les séries d'exercices<br>
+	  <div id="series-complexe"></div>
+	</div>
+      </div>
+    </p>
+    <h4>2013/2014</h4>
+    <p><div class="w3-panel w3-left-align w3-round-large w3-border w3-block w3-padding">
+	<div>
+	  <b>Processus stochastiques en temps discret (automne)</b>
+	  <div class="w3-right">
+	    <a href="javascript: openTeaching('processus'); series('processus', title_processus)"><i class="material-icons-outlined">more</i></a>
+	  </div>
+	</div>
+	<div id="teaching-processus" style="display: none">
+	  <div><i class="material-icons-outlined">more_horiz</i></div>
+	  <a href="teaching/processus/processus.zip"><i class="material-icons-outlined w3-large">picture_as_pdf</i></a> Toutes les séries d'exercices<br>
+	  <div id="series-processus"></div>
+	</div>
+      </div>
+    </p>
+  </div>
+
+</div>
+</div>
+
+<script type="text/javascript" src="java.js" charset="utf-8"></script>
+
+</body>
+</html>
+
